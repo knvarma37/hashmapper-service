@@ -1,0 +1,2 @@
+insert into services (id, name, description, bindable) values ('$serviceid', 'hashmapper-broker-$RANDOM', 'HashMapperService for stroing key-value pair data', true);
+insert into plans (id, name, description, service_id) values ('$planid', 'basic', 'Basic Plan', '$serviceid');
